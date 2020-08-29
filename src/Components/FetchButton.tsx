@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useDispatch } from "react-redux";
-import { fetchGithubUsers } from "../Redux/GithubReducer";
+import { fetchGithubUsers } from "../Ducks/Github/Operation";
 
 export default function FetchButton() {
   const dispatch = useDispatch();

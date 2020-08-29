@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useDispatch } from "react-redux";
-import { clearUsers } from "../Redux/ActionCreator";
+import { clearUsers } from "../Ducks/Github/Actions";
 
 export default function ClearButton() {
   const dispatch = useDispatch();

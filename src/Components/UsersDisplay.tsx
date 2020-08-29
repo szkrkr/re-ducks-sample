@@ -2,7 +2,7 @@ import * as React from "react";
 import {
   useGithubUsersSelector,
   useIsFetchingSelector
-} from "../Redux/Selector";
+} from "../Ducks/Github/Selector";
 
 export default function UserDisplay() {
   const users = useGithubUsersSelector();
